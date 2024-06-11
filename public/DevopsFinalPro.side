@@ -1,0 +1,132 @@
+{
+  "id": "00b2aea4-7a7d-4192-ac9e-0f98c0e7e2f8",
+  "version": "2.0",
+  "name": "DevopsFinalPro",
+  "url": "https://devops-project20.web.app/",
+  "tests": [{
+    "id": "5e0d5fe3-fdd0-4441-9d36-09fa9bf06518",
+    "name": "testDevPro",
+    "commands": [{
+      "id": "0ab7a600-3af5-45da-97d2-c61535b1245d",
+      "comment": "",
+      "command": "open",
+      "target": "https://devops-project20.web.app/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64ef83be-2f90-427b-9e85-f276b89846f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7a68af7-562b-46de-8023-5802114f14c4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//h2[contains(.,'User Info Request Form')]",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'User Info Request Form')]", "xpath:innerText"]
+      ],
+      "value": "User Info Request Form"
+    }, {
+      "id": "d3be0c82-c12f-418d-9845-0451c2721c32",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=p:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcb73b46-e981-484c-b743-bdbfa7964fc4",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=p:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "maya b"
+    }, {
+      "id": "5a690f65-e1ab-45bc-9c5e-8d8203837b3c",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=p:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c42aec33-130f-4fb8-84b8-0601c25594c9",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=p:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "mayab@gmail.com"
+    }, {
+      "id": "734c0b26-82a6-43c2-96b6-aee15b3c0beb",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(3) > input",
+      "targets": [
+        ["css=p:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@value='Process']", "xpath:attributes"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f447fe0-1ae0-413c-9bf3-187233b4c28b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=p:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f242f726-b890-4fd0-8e5f-259c8838cb93",
+      "comment": "",
+      "command": "verifyText",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=p:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "15a9a6d3-9afb-41ae-93a8-ac35eefd5f7e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5e0d5fe3-fdd0-4441-9d36-09fa9bf06518"]
+  }],
+  "urls": ["https://devops-project20.web.app/"],
+  "plugins": []
+}
